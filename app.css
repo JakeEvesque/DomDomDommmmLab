@@ -1,0 +1,20 @@
+.squareDiv {
+    border-style: solid;
+    float: left;
+    margin: 3em;
+    width:5em;
+    height: 5em;
+}
+
+.squareDiv div {
+    display: none;
+}
+
+.squareDiv:hover div  {
+    display: block;
+    position: relative;
+    float: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
